@@ -5,18 +5,21 @@ VERSION: 2.4.7
 CREATED: 1/25/2017
 ASSIGNMENT: Create a text adventure
 -->
-<html lang="en">
+<html lang="en" class="background">
     <head>
         <meta charset="UTF-8">
-        <title>Text Adventure 2.0</title>
-        <link href="./foundation.css" rel="stylesheet">
+        <title>Football Adventure</title>
+        <link href="foundation.min.css" rel="stylesheet">
+        <link href="override.css" rel="stylesheet">
     </head>
     <body>
-        <h1 id="title"></h1>
-        <div id="text"></div>
-        <input type="text" id="input">
-        <h3 class="submit-button" id="button"></h3>
-    <!-- SCRIPTS -->
-    <script src= "./main.js"></script>
+        <div class="h1" id="title"></div>
+        <div class="h2" id="text"></div>
+        <div class="row">
+            <input class=" large-12 text-center">
+        </div>
+        <div class="button" id="button">> Begin</div>
+        <!-- SCRIPTS -->
+        <script src= "./main.js"></script>
     </body>
 </html>

@@ -57,18 +57,20 @@ class writeStory {
                 if (shootValue == 1) {
                     document.getElementById("text").innerHTML = "> GOAL!<br>" +
                         "> THE CROWD GOES WILD! SO DOES THE NARRATOR!<br>" +
-                        "> YOU SUCCEED ENTIRELY! NOTHING BAD CAN EVER HAPPEN TO YOU FROM NOW ON IT!<br>" +
+                        "> YOU SUCCEED ENTIRELY! NOTHING BAD CAN EVER HAPPEN TO YOU FROM NOW ON!<br>" +
                         "> YOU DID IT! YOU NOW DID DONE DO THE THING!<br>" +
                         "> SPOOOOOOOOORTS!!!<br>";
+                    state++;
                 } else if (shootValue == 2 || shootValue == 3) {
                     document.getElementById("text").innerHTML = "> YOU SHOOT! AND...<br>" +
                         "> The goalie headbutts the ball halfway up the field.<br>" +
                         "> You suddenly notice the goalie is the size of a large gorilla, and about twice as buff.<br>" +
                         "> The player you had presumed was a defender rushes past you and dribbles the ball into your " +
                         "goal, meters away.<br>" +
-                        "> You fall to your knees and weep. Though you do not know it yet, this event has caused you" +
+                        "> You fall to your knees and weep. Though you do not know it yet, this event has caused you " +
                         "to lose the championship, and two years later, develop a raging drug habit you will die to.<br>" +
                         "> Sorry.";
+                    state++;
                 } else if (shootValue == 4) {
                     document.getElementById("text").innerHTML = "> YOU SHOOT! AND...<br>" +
                         "> The ball goes out of bounds.<br>" +
@@ -77,6 +79,7 @@ class writeStory {
                         "> You shrug. You'll get it next time, you think.<br>" +
                         "> Of course, whether you actually do is up to somebody else, cause you cannot pay me to " +
                         "write more scenarios for a /football/ text adventure.<br>";
+                    state++;
                 } else if (shootValue >= 5 || shootValue <= 10) {
                     document.getElementById("text").innerHTML = "> YOU SHOOT! AND...<br>" +
                         "> The goalie catches the ball.<br>" +

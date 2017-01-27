@@ -1,0 +1,26 @@
+body {
+    background-image: url("./soccer_field_wallpapers_hd.jpg");
+    background-size: cover;
+    color: white; }
+
+.h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: Georgia; }
+
+.h2 {
+    font-size: 32px;
+    font-family: Georgia; }
+
+.h3 {
+    font-size: 32px;
+    text-align: center;
+    font-family: Georgia; }
+
+.row {
+    text-align: center; }
+
+#button {
+    text-align: center;
+    font-family: Arial;
+    font-size: 22px; }
